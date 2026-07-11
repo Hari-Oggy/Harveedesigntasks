@@ -19,7 +19,7 @@ The **Course Allocation System** is a full-stack, AI-driven platform for automat
 **Project Demo Video:**
 
 <video width="100%" controls>
-  <source src="course-allocation-system/imagesandrecordvedio/Screencast%20from%202026-07-11%2014-06-12.mp4" type="video/mp4">
+  <source src="https://github.com/Hari-Oggy/Harveedesigntasks/raw/main/course-allocation-system/imagesandrecordvedio/Screencast%20from%202026-07-11%2014-06-12.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -40,7 +40,7 @@ The **AI SQL Assistant** is a tool that allows users to upload any CSV or Excel 
 **Project Demo Video:**
 
 <video width="100%" controls>
-  <source src="aisql/video/Screencast%20from%202026-07-11%2018-41-23.mp4" type="video/mp4">
+  <source src="https://github.com/Hari-Oggy/Harveedesigntasks/raw/main/aisql/video/Screencast%20from%202026-07-11%2018-41-23.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 

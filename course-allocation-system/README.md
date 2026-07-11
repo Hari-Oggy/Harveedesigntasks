@@ -136,7 +136,7 @@ Below is the required documentation addressing the mandatory deliverables for th
 ### 6. Screenshots or Demo Video
 **Project Demo Video:**
 <video width="100%" controls>
-  <source src="imagesandrecordvedio/Screencast%20from%202026-07-11%2014-06-12.mp4" type="video/mp4">
+  <source src="https://github.com/Hari-Oggy/Harveedesigntasks/raw/main/course-allocation-system/imagesandrecordvedio/Screencast%20from%202026-07-11%2014-06-12.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 

@@ -253,7 +253,7 @@ Below is the required documentation addressing the mandatory deliverables for th
 ### 6. Screenshots or Demo Video
 **Project Demo Video:**
 <video width="100%" controls>
-  <source src="video/Screencast from 2026-07-11 18-41-23.mp4" type="video/mp4">
+  <source src="https://github.com/Hari-Oggy/Harveedesigntasks/raw/main/aisql/video/Screencast%20from%202026-07-11%2018-41-23.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
