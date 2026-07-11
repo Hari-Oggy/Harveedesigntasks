@@ -139,8 +139,7 @@ Below is the required documentation addressing the mandatory deliverables for th
 Task1
 https://github.com/user-attachments/assets/e32b2fac-13e8-437a-b46e-80340c1bb7e1
 
-Task2
-https://github.com/user-attachments/assets/73495c64-c3a5-47db-ab12-995608c5e076
+
 
 
 
