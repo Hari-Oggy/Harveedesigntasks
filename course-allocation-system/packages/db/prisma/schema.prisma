@@ -1,0 +1,121 @@
+generator client {
+  provider = "prisma-client-js"
+  output   = "../generated/client"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+enum Category {
+  GENERAL
+  OBC
+  SC
+  ST
+}
+
+enum PreferenceStatus {
+  PENDING
+  ALLOCATED
+  REJECTED
+}
+
+enum StudentStatus {
+  PENDING
+  ALLOCATED
+  UNALLOCATED // Evaluated but no seats available in preferred courses
+}
+
+enum UserRole {
+  ADMIN
+  STUDENT
+}
+
+// Unified auth table — one row per admin, one row per student login
+model User {
+  id           String   @id @default(uuid())
+  email        String   @unique
+  passwordHash String
+  role         UserRole
+  studentId    String?  @unique // null for admins
+  createdAt    DateTime @default(now())
+
+  student Student? @relation(fields: [studentId], references: [id], onDelete: Cascade)
+
+  @@map("users")
+}
+
+model Student {
+  id              String   @id @default(uuid())
+  name            String
+  marks           Float
+  category        Category
+  applicationDate DateTime @default(now())
+  status          StudentStatus @default(PENDING)
+
+  preferences Preference[]
+  allocation  Allocation?
+  user        User?
+
+  // Index for the allocation sorting algorithm: Marks Descending, Application Date Ascending
+  @@index([marks(sort: Desc), applicationDate(sort: Asc)])
+  @@map("students")
+}
+
+model Course {
+  id           String @id @default(uuid())
+  name         String @unique
+  totalSeats   Int
+  generalSeats Int
+  obcSeats     Int
+  scSeats      Int
+  stSeats      Int
+
+  preferences Preference[]
+  allocations Allocation[]
+
+  @@map("courses")
+}
+
+model Preference {
+  id        String           @id @default(uuid())
+  studentId String
+  courseId  String
+  priority  Int              // 1 (Highest), 2, 3
+  status    PreferenceStatus @default(PENDING)
+
+  student Student @relation(fields: [studentId], references: [id], onDelete: Cascade)
+  course  Course  @relation(fields: [courseId], references: [id], onDelete: Cascade)
+
+  // One-to-one relation if this preference resulted in an allocation
+  allocation Allocation?
+
+  @@unique([studentId, priority])
+  @@unique([studentId, courseId])
+  @@map("preferences")
+}
+
+model Allocation {
+  id                String   @id @default(uuid())
+  studentId         String   @unique
+  courseId          String
+  preferenceId      String   @unique
+  allocatedCategory Category // The quota under which they were admitted (e.g., OBC student getting GENERAL seat)
+  allocationDate    DateTime @default(now())
+
+  student    Student    @relation(fields: [studentId], references: [id], onDelete: Cascade)
+  course     Course     @relation(fields: [courseId], references: [id], onDelete: Cascade)
+  preference Preference @relation(fields: [preferenceId], references: [id], onDelete: Restrict)
+
+  @@map("allocations")
+}
+
+// Logs the questions asked by admins to the AI Assistant for analytics and context retention
+model AISession {
+  id        String   @id @default(uuid())
+  query     String
+  response  String
+  createdAt DateTime @default(now())
+
+  @@map("ai_sessions")
+}

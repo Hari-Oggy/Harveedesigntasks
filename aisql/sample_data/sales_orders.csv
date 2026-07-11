@@ -1,0 +1,73 @@
+order_id,customer_name,product,category,quantity,unit_price,total_amount,order_date,region,salesperson
+ORD001,Alice Johnson,Laptop Pro X,Electronics,2,1299.99,2599.98,2024-01-05,North,John Davis
+ORD002,Bob Smith,Office Chair,Furniture,5,299.50,1497.50,2024-01-08,South,Sarah Lee
+ORD003,Carol Davis,Wireless Mouse,Electronics,10,45.00,450.00,2024-01-12,East,Mike Chen
+ORD004,David Wilson,Standing Desk,Furniture,3,599.99,1799.97,2024-01-15,West,Anna Park
+ORD005,Emma Martinez,Monitor 4K,Electronics,4,449.00,1796.00,2024-01-18,North,John Davis
+ORD006,Frank Anderson,Notebook Set,Stationery,20,12.50,250.00,2024-01-22,South,Sarah Lee
+ORD007,Grace Thompson,Bluetooth Speaker,Electronics,7,89.99,629.93,2024-02-01,East,Mike Chen
+ORD008,Henry Jackson,Ergonomic Chair,Furniture,2,799.00,1598.00,2024-02-05,West,Anna Park
+ORD009,Iris White,USB-C Hub,Electronics,15,59.99,899.85,2024-02-10,North,John Davis
+ORD010,Jack Harris,Whiteboard,Office Supplies,6,149.00,894.00,2024-02-14,South,Sarah Lee
+ORD011,Karen Lewis,Laptop Pro X,Electronics,1,1299.99,1299.99,2024-02-18,East,Mike Chen
+ORD012,Liam Clark,Desk Lamp,Office Supplies,8,79.50,636.00,2024-02-22,West,Anna Park
+ORD013,Mia Robinson,Keyboard Mechanical,Electronics,12,159.00,1908.00,2024-03-01,North,John Davis
+ORD014,Noah Walker,Filing Cabinet,Furniture,4,249.99,999.96,2024-03-05,South,Sarah Lee
+ORD015,Olivia Hall,Webcam HD,Electronics,9,119.00,1071.00,2024-03-10,East,Mike Chen
+ORD016,Peter Young,Paper Ream,Stationery,50,8.99,449.50,2024-03-15,West,Anna Park
+ORD017,Quinn King,Laptop Pro X,Electronics,3,1299.99,3899.97,2024-03-20,North,John Davis
+ORD018,Rachel Wright,Conference Table,Furniture,1,1899.00,1899.00,2024-03-25,South,Sarah Lee
+ORD019,Sam Lopez,Wireless Headset,Electronics,6,199.00,1194.00,2024-04-01,East,Mike Chen
+ORD020,Tina Hill,Office Chair,Furniture,4,299.50,1198.00,2024-04-05,West,Anna Park
+ORD021,Uma Scott,Pen Set,Stationery,30,5.99,179.70,2024-04-10,North,John Davis
+ORD022,Victor Green,Monitor 4K,Electronics,2,449.00,898.00,2024-04-15,South,Sarah Lee
+ORD023,Wendy Adams,Standing Desk,Furniture,2,599.99,1199.98,2024-04-20,East,Mike Chen
+ORD024,Xavier Baker,Tablet Pro,Electronics,5,699.00,3495.00,2024-04-25,West,Anna Park
+ORD025,Yara Gonzalez,Stapler Heavy Duty,Office Supplies,15,34.50,517.50,2024-05-01,North,John Davis
+ORD026,Zoe Nelson,Laptop Pro X,Electronics,2,1299.99,2599.98,2024-05-05,South,Sarah Lee
+ORD027,Aaron Carter,Bookshelf,Furniture,3,399.00,1197.00,2024-05-10,East,Mike Chen
+ORD028,Bella Mitchell,Smart Watch,Electronics,8,349.00,2792.00,2024-05-15,West,Anna Park
+ORD029,Carlos Perez,Notebook Set,Stationery,25,12.50,312.50,2024-05-20,North,John Davis
+ORD030,Diana Roberts,Monitor 4K,Electronics,3,449.00,1347.00,2024-05-25,South,Sarah Lee
+ORD031,Evan Turner,Meeting Pod Chair,Furniture,6,549.00,3294.00,2024-06-01,East,Mike Chen
+ORD032,Fiona Phillips,USB-C Hub,Electronics,20,59.99,1199.80,2024-06-05,West,Anna Park
+ORD033,George Campbell,Laptop Pro X,Electronics,4,1299.99,5199.96,2024-06-10,North,John Davis
+ORD034,Hannah Parker,Desk Organizer,Office Supplies,10,49.99,499.90,2024-06-15,South,Sarah Lee
+ORD035,Isaac Evans,Wireless Mouse,Electronics,8,45.00,360.00,2024-06-20,East,Mike Chen
+ORD036,Julia Edwards,Executive Desk,Furniture,1,2199.00,2199.00,2024-06-25,West,Anna Park
+ORD037,Kevin Collins,Bluetooth Speaker,Electronics,5,89.99,449.95,2024-07-01,North,John Davis
+ORD038,Laura Stewart,Paper Ream,Stationery,40,8.99,359.60,2024-07-05,South,Sarah Lee
+ORD039,Marcus Sanchez,Tablet Pro,Electronics,3,699.00,2097.00,2024-07-10,East,Mike Chen
+ORD040,Nadia Morris,Office Chair,Furniture,7,299.50,2096.50,2024-07-15,West,Anna Park
+ORD041,Oliver Rogers,Laptop Pro X,Electronics,5,1299.99,6499.95,2024-07-20,North,John Davis
+ORD042,Patricia Reed,Keyboard Mechanical,Electronics,6,159.00,954.00,2024-07-25,South,Sarah Lee
+ORD043,Quinn Cook,Whiteboard,Office Supplies,4,149.00,596.00,2024-08-01,East,Mike Chen
+ORD044,Rosa Bell,Standing Desk,Furniture,3,599.99,1799.97,2024-08-05,West,Anna Park
+ORD045,Samuel Murphy,Smart Watch,Electronics,10,349.00,3490.00,2024-08-10,North,John Davis
+ORD046,Teresa Bailey,Notebook Set,Stationery,35,12.50,437.50,2024-08-15,South,Sarah Lee
+ORD047,Ulrich Rivera,Monitor 4K,Electronics,4,449.00,1796.00,2024-08-20,East,Mike Chen
+ORD048,Vera Cooper,Filing Cabinet,Furniture,2,249.99,499.98,2024-08-25,West,Anna Park
+ORD049,Walter Richardson,Laptop Pro X,Electronics,3,1299.99,3899.97,2024-09-01,North,John Davis
+ORD050,Xena Cox,USB-C Hub,Electronics,18,59.99,1079.82,2024-09-05,South,Sarah Lee
+ORD051,Alice Johnson,Smart Watch,Electronics,4,349.00,1396.00,2024-09-10,East,Mike Chen
+ORD052,Bob Smith,Standing Desk,Furniture,2,599.99,1199.98,2024-09-15,West,Anna Park
+ORD053,Carol Davis,Laptop Pro X,Electronics,1,1299.99,1299.99,2024-09-20,North,John Davis
+ORD054,David Wilson,Desk Lamp,Office Supplies,12,79.50,954.00,2024-09-25,South,Sarah Lee
+ORD055,Emma Martinez,Tablet Pro,Electronics,6,699.00,4194.00,2024-10-01,East,Mike Chen
+ORD056,Frank Anderson,Bookshelf,Furniture,5,399.00,1995.00,2024-10-05,West,Anna Park
+ORD057,Grace Thompson,Wireless Headset,Electronics,8,199.00,1592.00,2024-10-10,North,John Davis
+ORD058,Henry Jackson,Conference Table,Furniture,1,1899.00,1899.00,2024-10-15,South,Sarah Lee
+ORD059,Iris White,Pen Set,Stationery,45,5.99,269.55,2024-10-20,East,Mike Chen
+ORD060,Jack Harris,Monitor 4K,Electronics,5,449.00,2245.00,2024-10-25,West,Anna Park
+ORD061,Karen Lewis,Laptop Pro X,Electronics,2,1299.99,2599.98,2024-11-01,North,John Davis
+ORD062,Liam Clark,Ergonomic Chair,Furniture,3,799.00,2397.00,2024-11-05,South,Sarah Lee
+ORD063,Mia Robinson,USB-C Hub,Electronics,14,59.99,839.86,2024-11-10,East,Mike Chen
+ORD064,Noah Walker,Paper Ream,Stationery,60,8.99,539.40,2024-11-15,West,Anna Park
+ORD065,Olivia Hall,Smart Watch,Electronics,7,349.00,2443.00,2024-11-20,North,John Davis
+ORD066,Peter Young,Meeting Pod Chair,Furniture,4,549.00,2196.00,2024-11-25,South,Sarah Lee
+ORD067,Quinn King,Webcam HD,Electronics,10,119.00,1190.00,2024-12-01,East,Mike Chen
+ORD068,Rachel Wright,Standing Desk,Furniture,5,599.99,2999.95,2024-12-05,West,Anna Park
+ORD069,Sam Lopez,Laptop Pro X,Electronics,3,1299.99,3899.97,2024-12-10,North,John Davis
+ORD070,Tina Hill,Bluetooth Speaker,Electronics,9,89.99,809.91,2024-12-15,South,Sarah Lee
+ORD071,Uma Scott,Executive Desk,Furniture,1,2199.00,2199.00,2024-12-20,East,Mike Chen
+ORD072,Victor Green,Keyboard Mechanical,Electronics,8,159.00,1272.00,2024-12-25,West,Anna Park

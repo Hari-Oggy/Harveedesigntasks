@@ -1,0 +1,51 @@
+name,age,city,revenue,signup_date,is_premium
+Alice Johnson,34,New York,52400.50,2023-01-15,true
+Bob Smith,28,Los Angeles,31200.00,2023-02-20,false
+Carol Davis,45,Chicago,87650.25,2022-11-30,true
+David Wilson,31,Houston,24800.75,2023-03-10,false
+Emma Martinez,39,Phoenix,65300.00,2023-01-25,true
+Frank Anderson,52,Philadelphia,42100.50,2022-12-05,false
+Grace Thompson,27,San Antonio,18500.00,2023-04-01,false
+Henry Jackson,44,San Diego,93200.75,2022-10-15,true
+Iris White,36,Dallas,55400.25,2023-02-14,true
+Jack Harris,29,San Jose,28700.00,2023-03-22,false
+Karen Lewis,41,Austin,71800.50,2022-11-10,true
+Liam Clark,33,Jacksonville,39200.00,2023-01-30,false
+Mia Robinson,48,Fort Worth,84500.25,2022-09-20,true
+Noah Walker,26,Columbus,15300.75,2023-04-15,false
+Olivia Hall,37,Charlotte,62700.00,2023-02-28,true
+Peter Young,43,Indianapolis,47600.50,2022-12-20,false
+Quinn King,30,San Francisco,89400.25,2023-01-05,true
+Rachel Wright,55,Seattle,112300.00,2022-08-10,true
+Sam Lopez,32,Denver,36100.75,2023-03-05,false
+Tina Hill,46,Nashville,78900.50,2022-10-25,true
+Uma Scott,28,Oklahoma City,22400.00,2023-04-20,false
+Victor Green,40,El Paso,54800.25,2023-01-18,true
+Wendy Adams,35,Washington,68200.00,2023-02-10,true
+Xavier Baker,49,Las Vegas,96700.75,2022-09-05,true
+Yara Gonzalez,31,Memphis,33500.50,2023-03-15,false
+Zoe Nelson,42,Louisville,72100.00,2022-11-25,true
+Aaron Carter,27,Portland,19800.25,2023-04-10,false
+Bella Mitchell,38,Baltimore,58400.75,2023-01-22,true
+Carlos Perez,53,Milwaukee,43200.00,2022-12-15,false
+Diana Roberts,34,Albuquerque,81600.50,2022-10-05,true
+Evan Turner,44,Tucson,26900.25,2023-03-28,false
+Fiona Phillips,29,Fresno,14700.00,2023-04-25,false
+George Campbell,47,Sacramento,87300.75,2022-09-15,true
+Hannah Parker,36,Long Beach,61500.50,2023-02-05,true
+Isaac Evans,31,Kansas City,37800.00,2023-03-08,false
+Julia Edwards,50,Mesa,94600.25,2022-08-20,true
+Kevin Collins,33,Virginia Beach,48300.75,2022-12-30,false
+Laura Stewart,45,Raleigh,76900.50,2022-11-05,true
+Marcus Sanchez,28,Colorado Springs,21100.00,2023-04-08,false
+Nadia Morris,39,Omaha,63400.25,2023-01-12,true
+Oliver Rogers,54,Miami,108700.75,2022-07-25,true
+Patricia Reed,32,Oakland,34600.50,2023-03-18,false
+Quinn Cook,43,Minneapolis,69800.00,2023-02-22,true
+Rosa Bell,30,Tulsa,25500.25,2023-04-05,false
+Samuel Murphy,46,Cleveland,83200.75,2022-10-18,true
+Teresa Bailey,37,Wichita,57300.50,2023-01-28,true
+Ulrich Rivera,41,Arlington,44700.00,2022-12-08,false
+Vera Cooper,26,New Orleans,16900.25,2023-04-28,false
+Walter Richardson,48,Bakersfield,91100.75,2022-09-28,true
+Xena Cox,35,Tampa,66500.50,2023-02-18,true
