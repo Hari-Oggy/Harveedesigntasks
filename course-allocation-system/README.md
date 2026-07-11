@@ -135,10 +135,15 @@ Below is the required documentation addressing the mandatory deliverables for th
 
 ### 6. Screenshots or Demo Video
 **Project Demo Video:**
-<video width="100%" controls>
-  <source src="https://github.com/Hari-Oggy/Harveedesigntasks/raw/main/course-allocation-system/imagesandrecordvedio/Screencast%20from%202026-07-11%2014-06-12.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+
+Task1
+https://github.com/user-attachments/assets/e32b2fac-13e8-437a-b46e-80340c1bb7e1
+
+Task2
+https://github.com/user-attachments/assets/73495c64-c3a5-47db-ab12-995608c5e076
+
+
+
 
 **System Screenshots:**
 ![Screenshot 1](imagesandrecordvedio/Screenshot%202026-07-11%20at%2014-05-27%20AI-Powered%20Course%20Allocation%20System.png)
