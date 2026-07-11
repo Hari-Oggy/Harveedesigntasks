@@ -1,5 +1,6 @@
 # 🧠 AI SQL Assistant
-
+video: Task2
+https://github.com/user-attachments/assets/73495c64-c3a5-47db-ab12-995608c5e076
 > Upload any CSV or Excel dataset and query it in **plain English**. Powered by Groq / NVIDIA / OpenRouter LLMs and PostgreSQL.
 
 ---
